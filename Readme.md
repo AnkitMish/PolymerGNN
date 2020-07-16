@@ -18,3 +18,6 @@ Computational framework of polymer dielectric-behavior estimate. It can be divid
 ![GNN](https://github.com/AnkitMish/PolymerGNN/blob/master/img/GNN.jpg)
 
 The calculated dielectric constant values are used to train a Graph Neural Networks (GNN). Each Polymer is mapped to a 20 dimensional vector based on various physical and graph related property. The GNN is trained corresponding to many polymer structures and their dielectric properties. The resultant trained GNN predicts important polymers and their underlying functional group which can result in good dielectric properties.
+
+
+
