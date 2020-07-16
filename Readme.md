@@ -10,5 +10,11 @@ Polynorbornene (PNB) is one such important amorphous polymer system, which has p
 ![Workflow](https://github.com/AnkitMish/PolymerGNN/blob/master/img/Workflow.jpg)
 <br>
 
-Computational framework of polymer dielectric-behavior estimate. (a) Synthesis of amorphous polymer system. SMILES string and Open Babel are used to create a single polymer chain. Multiple polymer chains are placed at sufficiently large distance from each chain in a simulation system. The simulation system is subjected to a number of consolidation and relaxation steps until the system reaches to a desired density.  (b) ReaxPQ+ model development that involves various QM-based calculations and validations such as atomic polarization and charges for constituent atomic species, and dielectric constant estimate.
+Computational framework of polymer dielectric-behavior estimate. It can be divided into two parts (a) Synthesis of amorphous polymer system. SMILES string and Open Babel are used to create a single polymer chain. Multiple polymer chains are placed at sufficiently large distance from each chain in a simulation system. The simulation system is subjected to a number of consolidation and relaxation steps until the system reaches to a desired density.  (b) ReaxPQ+ model development that involves various QM-based calculations and validations such as atomic polarization and charges for constituent atomic species, and dielectric constant estimate.
 
+
+### GNN for polymer prediction
+
+![GNN](https://github.com/AnkitMish/PolymerGNN/blob/master/img/GNN.jpg)
+
+The calculated dielectric constant values are used to train a Graph Neural Networks (GNN). Each Polymer is mapped to a 20 dimensional vector based on various physical and graph related property. The GNN is trained corresponding to many polymer structures and their dielectric properties. The resultant trained GNN predicts important polymers and their underlying functional group which can result in good dielectric properties.
