@@ -1,4 +1,4 @@
-## Dielectric Polymer using Graph Convolution Networks
+## Accelerated Discovery of Dielectric Polymer using Graph Convolution Networks
 
 There is a great deal of interest in designing and identifying new dielectric polymer materials that exhibit high power density as they have many applications in modern electronics system. 
 However, designing such polymers with desired properties is a challenging task due to combinatorial large search space. 
